@@ -1,0 +1,46 @@
+# Claude / IDE
+.claude/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and training outputs (regenerable)
+datafolder/
+results/
+
+# Compiled report / slides (regenerable from source)
+*.pptx
+*.pdf
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Report source (kept out of repo)
+*.tex
+
+# OS
+Thumbs.db
+.DS_Store
