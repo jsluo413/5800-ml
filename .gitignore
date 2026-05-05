@@ -41,6 +41,9 @@ results/
 # Report source (kept out of repo)
 *.tex
 
+# Local-only helpers (PPT generation, course material, one-off regen scripts)
+local/
+
 # OS
 Thumbs.db
 .DS_Store
