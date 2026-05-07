@@ -24,7 +24,6 @@ imbalance behaviour is visible.
 
 ```
 main.py              run the whole pipeline
-regen_gradcam.py     just rebuild the Grad-CAM figure
 src/
   dataset.py         ImageFolder loaders, transforms
   models.py          SimpleCNN + 3 pretrained backbones
@@ -39,7 +38,7 @@ src/
 conda create -n hurricane_ml python=3.10 -y
 conda activate hurricane_ml
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-pip install scikit-learn matplotlib seaborn pandas tqdm grad-cam kagglehub timm python-pptx
+pip install scikit-learn matplotlib seaborn pandas tqdm grad-cam kagglehub timm 
 
 # data
 $env:KAGGLEHUB_CACHE = "$PWD\datafolder\kagglehub_cache"
