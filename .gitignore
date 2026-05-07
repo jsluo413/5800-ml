@@ -17,10 +17,6 @@ __pycache__/
 datafolder/
 results/
 
-# Compiled report / slides (regenerable from source)
-*.pptx
-*.pdf
-
 # LaTeX build artefacts
 *.aux
 *.log
